@@ -10,7 +10,7 @@ This project builds an end-to-end artificial neural network (ANN) to classify ha
 - Designed and trained a multi-layer Artificial Neural Network (ANN) using TensorFlow and Keras.
 - Evaluated model performance using accuracy and confusion matrix visualization.
 - Implemented custom image preprocessing and prediction to classify external handwritten digit images, gaining hands-on experience in end-to-end deep learning workflow.
-- 
+  
 ### Tools and Packages Used
 
 - **Python** for data processing, model development, and implementation
