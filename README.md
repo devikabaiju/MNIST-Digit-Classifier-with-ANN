@@ -47,11 +47,17 @@ The trained model was evaluated on the unseen test dataset to measure its perfor
 
 A confusion matrix was generated using Scikit-learn to analyze classification results in detail. It provided a class-wise breakdown of correct and incorrect predictions. Visualization of the confusion matrix helped identify patterns of misclassification. This step enhanced interpretability of the model’s performance.
 
+*Ref 3: Model Performance – Confusion Matrix*
+
+![Confusion Matrix](Images/confusion_matrix.png)
+
 ### 7. Custom Image Prediction and Visualization
 
 A preprocessing function was implemented to handle external handwritten digit images. The images were converted to grayscale, resized, normalized, and reshaped to match the MNIST input format. The trained model was then used to predict the digit from the custom image. The processed image and predicted label were visualized for better understanding.
 
+*Ref 4: Model Prediction on Custom Handwritten Digit*
 
-*Ref 2: Prediction Result*
+This output visualizes the model’s prediction on a preprocessed custom handwritten digit image.
 
-![Prediction Result](Images/prediction.png)
+![Predicted Digit](Images/output.png)
+
